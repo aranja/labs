@@ -1,6 +1,6 @@
 ---
 title : jQuery Pluginloader
-tagline : Load your jQuery plugins from HTML. 
+tagline : Load your jQuery plugins from HTML.
 layout : post
 category : labs
 tags : [library, jquery, plugins]
