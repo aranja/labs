@@ -1,7 +1,13 @@
-<section>
+<div class="contentbox">
   <h1>{{ page.title }}</h1>
+  {% if page.github %}
+  <div class="actions">
+	  <iframe src="http://ghbtns.com/github-btn.html?user={{page.github.user}}&repo={{page.github.repo}}&type=watch&count=true"
+	  allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+  </div>
+  {% endif %}
 
   {{ content }}
 
   {% include JB/comments %}
-</section>
+</div>
