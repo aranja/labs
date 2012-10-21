@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Eiríkur Heiðar Nilsson -- Web Developer -- @eirikurn
+	Ægir Þorsteinsson -- Web Developer -- @thorsteinsson
+
+# TECHNOLOGY COLOPHON
+
+	Jekyll
+    HTML5, CSS3
+    jQuery

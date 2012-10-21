@@ -1,15 +1,17 @@
 ---
 layout: page
-title: Aranja Labs
-tagline: Supporting tagline
+title: aranja labs
 ---
 {% include JB/setup %}
-
-<ul class="posts">
+<div data-plugin="masonry:{itemSelector:'.shadowbox',columnWidth:100}">
   {% for post in site.posts %}
-    <li><a href="{% if post.link %}{{ post.link }}{% else %}{{ BASE_PATH }}{{ post.url }}{% endif %}"><img src="{{ BASE_PATH }}{{ post.thumbnail }}" alt="{{ post.title }}" /><br />{{ post.title }}</a></li>
+    <div class="experiment">
+    	<a href="{% if post.link %}{{ post.link }}{% else %}{{ BASE_PATH }}{{ post.url }}{% endif %}">
+    		<img src="{{ BASE_PATH }}{{ post.thumbnail }}" alt="{{ post.title }}" />
+			<h3>{{ post.title }}</h3>
+			<p>{{ post.tagline }}</p>
+    	</a>
+    </div>
   {% endfor %}
-</ul>
-
-
+</div>
 
