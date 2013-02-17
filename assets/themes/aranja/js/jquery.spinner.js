@@ -73,9 +73,9 @@
 
   Spinner.prototype.keydown = function(e) {
     if (e.keyCode === 37) {
-      this.prev();
-    } else if (e.keyCode === 39) {
       this.next();
+    } else if (e.keyCode === 39) {
+      this.prev();
     }
   };
 
